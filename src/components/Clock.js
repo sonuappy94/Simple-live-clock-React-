@@ -25,7 +25,7 @@ class Clock extends Component {
     render() {
         return (
             <div>
-               <Card style={{ width: '18rem' }}>
+               <Card style={{ width: '18rem' }} className='bg-success'>
   
   <Card.Body>
     <Card.Title><h1>Now the time is</h1></Card.Title>
